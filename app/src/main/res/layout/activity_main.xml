@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A59CA1"
+    android:backgroundTint="#79B534"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/generateButton"
+        style="@android:style/Widget.Material.Light.Button.Toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Generar Vector"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColorHighlight="@color/white"
+        android:textColorLink="#FBF6F8"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/vectorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/generateButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Vector Generado: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/menTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vectorTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="Menor: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/mayTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="Mayor: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/averageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mayTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="Promedio: "
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white"
+        android:textStyle="italic" />
+
+</RelativeLayout>
